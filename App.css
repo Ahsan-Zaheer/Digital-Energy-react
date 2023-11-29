@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  transition-property: all !important;
+  transition-timing-function: ease !important;
+  transition-duration: 500ms !important;
+}
+#display{
+  display: none ;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.logo{
+  width: 120px;
+  margin-left: 20px;
+}
+
+
+.toggler{
+  background:#141D9D;
+  border: none;
+  padding: 35px;
+  padding-bottom: 30px;
+  margin: 0 ;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
+
+
+.btn-1{
+  background-color: #1FA4E5;
+  width: 180px;
+  height: 60px;
+  color: white;
+  margin-top: -10px;
+}
+.btn-1:hover{
+  background-color: #141D9D;
+  color: white;
+  width: 200px;
+}
+.btn-2{
+  background-color: #1FA4E5;
+  width: 170px;
+  height: 50px;
+  color: white;
+}
+.btn-2:hover{
+  background-color: #141D9D;
+  color: white;
+  width: 190px;
+}
+
+.nav-item{
+  margin: 5px 20px;
+}
+
+.nav-item:last-child{
+  margin-right: 200px;
+}
+
+.contact-sec{
+  background-color: #141D9D;
+  margin-top: 50px;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 100px 30px;
+  padding-left: 50px;
+}
+
+.contact-first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-title{
+  color: white;
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  position: relative;
+}
+.contact-pseudo{
+  position: absolute;
+  bottom: -10px;
+  left: 100px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 40px;
+  width: 600px;
+}
+
+.contact-items{
+  width: 450px;
+  padding: 20px 16px;
+  margin: 5px 0px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.message{
+  width: 450px;
+  height: 200px;
+  padding: 20px 16px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  border: none;
+  outline: none;
+}
+
+.btn-last{
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #1FA4E5;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn-last:hover{
+  width: 200px;
+  background-color: white;
+  color: #141D9D;
+}
+
+.contact-robo{
+  width: 300px;
+}
+.contact-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-sec2{
+  background-color: rgba(255, 255, 255, 0.149);
+  padding: 30px 20px;
+}
+.signup-title{
+  font-size: 1.5em;
+  color: white;
+}
+.signup-form{
+  position: relative;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  color: white;
+}
+.signup_email{
+  width: 96%;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.footer-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer-icons{
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 1200px) {
+  .nav-item:last-child{
+    margin: 5px 20px;
+  }
+  .contact-first{
+    transform: scale(0.8);
+  }
+  .contact-robo{
+    width: 200px;
+  }
+  .contact-title{
+    font-size: 2em;
+  }
+  .contact-items{
+    width: 300px;
+  }
+  .message{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 450px){
+  .res-menu{
+    flex-direction: row-reverse;
+  }
+  .contact-items{
+    width: 300px;
+  }
+  .message{
+    width: 300px;
+  }
+  .contact-left{
+    align-items: end;
+  }
+  .logo-light{
+    width: 200px;
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .contact-first{
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  #display{
+    display: block !important;
+    margin-bottom: 20px;
+    margin-top: 50px !important;
+  }
+}
+
